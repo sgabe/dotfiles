@@ -6,6 +6,7 @@
     ~/.gdbinit-gef.py: gef/gef.py
     ~/.gdbinit:
     ~/.gitconfig:
+    ~/.oh-my-zsh:
     ~/.screenrc:
     ~/.tmux:
     ~/.tmux.conf:
