@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+      force: true
+- link:
+    ~/.gdbinit-gef.py: gef/gef.py
+    ~/.gdbinit:
+    ~/.gitconfig:
+    ~/.screenrc:
+    ~/.tmux:
+    ~/.tmux.conf:
+    ~/.vim_runtime:
+    ~/.vimrc:
+    ~/.zshrc:
