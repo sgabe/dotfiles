@@ -11,6 +11,6 @@ ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 
 # Load plugins
-plugins=(git tmux tmuxinator)
+plugins=(git sublime tmux tmuxinator)
 
 source $ZSH/oh-my-zsh.sh
