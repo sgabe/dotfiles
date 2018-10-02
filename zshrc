@@ -11,6 +11,6 @@ ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 
 # Load plugins
-plugins=(git zsh-syntax-highlighting sublime tmux tmuxinator)
+plugins=(git sublime tmux tmuxinator zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
