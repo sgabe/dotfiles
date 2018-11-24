@@ -3,6 +3,10 @@
       relink: true
       force: true
 - link:
+    oh-my-zsh/functions/prompt_pure_setup:
+      path: pure/pure.zsh
+    oh-my-zsh/functions/async:
+      path: pure/async.zsh
     ~/.gdbinit-gef.py: gef/gef.py
     ~/.gdbinit:
     ~/.gitconfig:
