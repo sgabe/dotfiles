@@ -26,7 +26,11 @@ PROMPT=" $PROMPT"
 # Hide username@host
 prompt_pure_state=(
 	#username "$username"
-	prompt	 "${PURE_PROMPT_SYMBOL:-❯}"
+	prompt	 "${PURE_PROMPT_SYMBOL:-»}"
 )
 # But prefix prompt when logged in as root
-PURE_PROMPT_SYMBOL='%f%F{red}#%f %F{magenta}❯'
+PURE_PROMPT_SYMBOL='%f%F{red}#%f %F{magenta}»'
+
+# Use safer symbols
+PURE_GIT_DOWN_ARROW='↑'
+PURE_GIT_UP_ARROW='↓'
